@@ -1,11 +1,11 @@
-package NF2_P01;
+package NF2_P01.AC02;
 
-class calculadora{
+class Calculadora{
     //atributos
     private int numero1;
     private int numero2;
     //Constructores
-    calculadora (int numero1, int numero2) {
+    Calculadora (int numero1, int numero2) {
         this.numero1 = numero1;
         this.numero2 = numero2;
     }
@@ -30,7 +30,7 @@ class calculadora{
         System.out.println("El resultado es: "+ (numero1+numero2));
     }
     void multi()  {
-        System.out.println("El resultado es: "+ numero1*numero2);
+        System.out.println("El resultado es: "+ (numero1*numero2));
     }
 }
 
